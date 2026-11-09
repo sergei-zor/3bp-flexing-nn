@@ -1,0 +1,19 @@
+{
+  "data": "datasets/fe_dataset_training.csv",
+  "test_frac": 0.2,
+  "split_seed": 0,
+  "seed": 0,
+  "epochs": 250,
+  "batch_size": 256,
+  "lr": 7.5e-05,
+  "weight_decay": 5e-05,
+  "dropout": 0.2,
+  "hidden": [
+    512,
+    256,
+    128,
+    64
+  ],
+  "outdir": "models/surrogate",
+  "train_time_s": 460.88714504241943
+}
